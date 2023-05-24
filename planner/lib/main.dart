@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'login_page.dart';
+import 'mainpage.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -29,7 +30,7 @@ class HomePage extends StatelessWidget {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const LoginPage()),
+                MaterialPageRoute(builder: (context) => MainPage()),
               );
             },
           ),
